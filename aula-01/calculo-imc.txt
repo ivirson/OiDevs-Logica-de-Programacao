@@ -1,0 +1,56 @@
+Farmácia do sr. Joaquim
+
+Cálculo de IMC
+
+Fórmula para obtenção do IMC
+
+// imc = peso/(altura * altura)
+
+Tabela com as faixas de IMC
+
+// IMC menor que 18.5 - Abaixo do peso
+// IMC entre 18.5  e 24.9 - Peso ideal
+// IMC entre 25 e 29.9 - Pré-obesidade
+// IMC entre 30 e 34.9 - Obesidade grau 1
+// IMC entre 35 e 39.9 - Obesidade grau 2
+// IMC acima de 40 - Obesidade grau 3
+
+- Olhar a data no calendário
+- Anotar a data na caderneta
+- Perguntar o nome do cliente
+- Anotar o nome na caderneta
+- Perguntar a altura
+- Verificar a unidade de medida da altura
+- Se a altura não estiver em metros (
+  - Converter a altura para metros
+)
+- Anotar a altura na caderneta
+- Perguntar o peso
+- Verificar a unidade de medida do peso
+- Se o peso não estiver em kg (
+  - Converter o peso para kg
+)
+- Anotar o peso na caderneta
+- Buscar os dados na caderneta
+- Multiplicar a altura pela o altura
+- Anotar o resultado da multiplicação na caderneta
+- Dividir o peso pelo resultado da multiplicação anterior
+- Anotar o resultado da divisão (IMC)
+- Se resultado é menor que 18.5 (
+    falar para o cliente que ele está abaixo do peso
+  )
+- Senão, se resultado é maior ou igual a 18.5 e menor que 25 (
+    falar para o cliente que ele com o peso ideal
+  )
+- Senão, se resultado é maior ou igual a 25 e menor que 30 (
+    falar para o cliente que ele com pré-obesidade
+  )
+- Senão, se resultado é maior ou igual a 30 e menor que 35 (
+    falar para o cliente que ele com obesidade grau 1
+  )
+- Senão, se resultado é maior ou igual a 35 e menor que 40 (
+    falar para o cliente que ele com obesidade grau 2
+  )
+- Senão, se resultado é maior ou igual a 40 (
+    falar para o cliente que ele com obesidade grau 3
+  )
