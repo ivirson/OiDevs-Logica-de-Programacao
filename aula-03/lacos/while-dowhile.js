@@ -10,7 +10,16 @@
 //     contador++
 // } while (contador <= 300)
 
-// Você tem um array que está vazio, e precisa preencher o mesmo com 5 numeros aleatórios de 0 a 10
+
+// EXERCICIO
+// Você tem um array que está vazio, e precisa preencher o mesmo com 5 numeros aleatórios
 
 //GERANDO NÚMERO ALEATÓRIO
 // console.log(Math.round(Math.random() * 10));
+
+// RESOLUCAO
+// var numeros = []
+// while (numeros.length < 5) {
+//     numeros.push(Math.round(Math.random() * 10))
+// }
+// console.log(numeros);
