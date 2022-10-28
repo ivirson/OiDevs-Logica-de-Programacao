@@ -1,6 +1,13 @@
 ---
 marp: true
 ---
+# Erros
+
+No JavaScript existem dois tipos de erros que você pode encontrar. 
+    * erros de sintaxe. 
+    * erros de tempo de execução.
+
+---
 
 # Try Catch
 
@@ -62,7 +69,6 @@ try {
 Como o código no finally sempre é executado, ele é o lugar perfeito para colocar o código que libera os recursos
 
 ---
-
 # Throw
 
 A instrução throw lança uma exceção definida pelo usuário. A execução da função atual será interrompida (as instruções após o lançamento não serão executadas) e o controle será passado para o primeiro bloco catch na pilha de chamadas.
